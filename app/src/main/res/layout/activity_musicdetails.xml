@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Musicdetails">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TRACK ID:"/>
+        <TextView
+            android:id="@+id/trackIdTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Track ID:"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TRACK NAME:"/>
+    <TextView
+        android:id="@+id/trackNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Track Name:"
+        android:textSize="18sp"
+        android:layout_below="@id/trackIdTextView"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ARTIST NAME:"/>
+    <TextView
+        android:id="@+id/artistNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Artist Name:"
+        android:textSize="18sp"
+        android:layout_below="@id/trackNameTextView"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="URL:"/>
+    <TextView
+        android:id="@+id/previewUrlTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preview URL:"
+        android:textSize="18sp"
+        android:layout_below="@id/artistNameTextView"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"/>
+    </LinearLayout>
+</LinearLayout>

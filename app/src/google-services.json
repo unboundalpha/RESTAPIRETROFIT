@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "453892154431",
+    "project_id": "bizpole-45b2a",
+    "storage_bucket": "bizpole-45b2a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453892154431:android:d83b6a2c4f99035399c48a",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfpUXXHEY6lRBVXIixdDHeiH9KlROTLgE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
